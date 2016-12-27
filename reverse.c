@@ -3,6 +3,7 @@ int main()
 {
   int num,sum=0,r;
   printf("enter the num");
+  scanf("%d",%num);
   while(num!=0)
   {
     r=num%10;
