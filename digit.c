@@ -2,10 +2,11 @@
 int main()
 {
   int num,r,count=0,sum = 0;
+  scanf("%d",&num);
   do 
   { 
     r=num % 10;
-    r=sum+r; 
+    sum=sum+r; 
     num=num/10;
     count++;
   } while (num > 0); 
