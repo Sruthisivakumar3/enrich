@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int num,rev=0,r;
+  int num,rev=0,r,temp;
   printf("enter the num");
   scanf("%d",&num);
   temp=num;
@@ -17,7 +17,7 @@ int main()
   }
   else
   { 
-    printf("the number is not a palindrome);
+    printf("the number is not a palindrome");
   }
 }
     
